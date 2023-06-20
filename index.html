@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz API Example</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+</head>
+<body>
+    <div>
+        <div id="control">
+            <button id="quizButton" class="btn" onClick={quizBtnSetup()}>Get Quiz</button>
+            <button id="nextButton" class="btn" style="display: none;" onClick={nextQuestion()}>Next</button>
+        </div>
+        <div id="quiz">
+
+        </div>
+    </div>
+    <div style="display: none;" id="converter"></div>
+    <script src="reactor.js" type="text/babel"></script>
+    <script src="quiz.js" type="text/javascript"></script>
+</body>
+</html>

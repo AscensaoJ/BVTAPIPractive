@@ -1,0 +1,73 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    height: 80vh;
+    background-color: silver;
+    font-size: 3.75vh;
+}
+
+.answers {
+    width: 30%;
+    height: 10.6vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+}
+
+.btn-grp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 100%;
+}
+
+.sub-grp {
+    display: flex;
+    justify-content: space-around;
+}
+
+#quiz {
+    width: calc(100vw - 16px);
+    height: calc(80vh - 8.4vh - 16px);
+
+}
+
+#control {
+    height: 8.4vh;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.btn {
+    background-color: #F0F0F0;
+    border-width: 1px;
+    border-radius: 5% !important;
+    font-size: 2.5vh;
+}
+
+#control .btn {
+    height: 7.4vh;
+    width: 10vw;
+}
+
+#starter {
+    height: 10vh;
+    width: 10vw;
+    margin-top: calc(40vh - 4.2vh - 8px - 2.5vh - 5px);
+}
+
+table {
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 7.8vh;
+    border-spacing: 5vw 0;
+}
